@@ -58,14 +58,14 @@
 
   1. Input file exists, for row header, each word can have space around, value can have space around
      - input file must be valid csv file, can end with comma for missing tag col (count as `Untaagged`)
-     - protocol col will alwyas be lowercase
+     - protocol col will always be lowercase
      - unknown port/protocol defaults to 'Unknown'
       
   2. Output is TSV(tab spearated) file, tag is in original case not always lowercase, with fixed-width for nicer formatting
      - not sorted by count
   4. Testing
-    - unit test is testing formatUtils.js
-    - integration test is testing the ouput/output.tsv file against user-defined test/expected.tsv file
+     - unit test is testing formatUtils.js
+     - integration test is testing the ouput/output.tsv file against user-defined test/expected.tsv file
 ## Example Input
 ```
 dstport,protocol,tag  
